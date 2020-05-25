@@ -1,0 +1,121 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/document.css">
+
+
+
+    <title>Compare</title>
+  </head>
+  <body class="body">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand">Louis Nguyen | Compare</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" onclick = "hredirect()" href="#">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick ="rredirect()">RPS Game <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick = "sredirect()" href="#">Source Code</a>
+            </li>
+           
+          </ul>
+         
+        </div>
+      </nav>
+
+<main role="main" class="container">
+  <div class="objectives">
+    <h2 class="alert">Similarities and Differences:</h2>
+  
+    <ol class="lead">
+      <h4>Syntax:</h4>
+    <li>
+      Both use { and } as code blocks
+    </li>
+    <li>
+      Both use ; to end statements</li>
+    <li>have a Math library e.g. Math.pow</li>
+    
+    <li>have return statements</li>
+    <li>Both follow same code structure for functions and everything else</li>
+    <li>Javascript uses "console.log()" instead of "System.out.println()"</li>
+  </ol>
+  <ol class="lead">
+    <h4>Data Types:</h4>
+    <li>Primitive data types in Javascript are String, number, boolean, undefined and null. Non Primitive data types in Javascript are Objects and Arrays. This is different
+      from Java because in Java a String is a Non primitive data type. Javascript also does not have seperate identifiers for an integer or double, it only has number. </li>
+      <li>Unlike Java, Javascript has no reserved words for these datat types, it only has "var" and "let". These reserved words can store any data type. Examples include "var a = 50;" and "var b = "hello"; "</li>
+ 
+</ol>
+<ol class="lead">
+  <h4>Logic Controls:</h4>
+  <li>Javascript and Java have identiical Logic Controls, except Javascript also has a "===" control, which checks if its equal value and equal type.</li>
+</ol>
+<ol class="lead">
+  <h4>Loops and Conditionals:</h4>
+  <li>Javascript and Java have identiical Loops and conditionals, except Javascript also has a "for in" loop which loops through the properties of an object, 
+    and a "for of" loop which loops through the values of an iterable object</li>
+</ol>
+<ol class="lead">
+  <h4>Data Structures - Arrays and ArrayLists:</h4>
+  <li>There are no Arraylists in Javascript</li>
+  <li>Arrays in Javascript are like arrays in Java but with properties from the ArrayList class. They are declared and function the same as their Java counterparts, except
+    you are able to manipulate items in the array (I.E. Add, remove and show) using built in methods such as .push(), .pop(), and .shift()</li>
+</ol>
+<ol class="lead">
+  <h4>Class and Method Construction:</h4>
+  <li>Class and Methods are built the same way in Javascript and in Java</li>
+  <li>JavaScript does not have polymorphic method declaration</li>
+</ol>
+<ol class="lead">
+  <h4>Object Handling:</h4>
+  <li>Object handling is identical to Java</li>
+  
+</ol>
+   
+   
+  
+  </div>
+
+
+  
+
+</main><!-- /.container -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function credirect() {
+          window.location.href = "document.html";
+        }
+        function hredirect() {
+          window.location.href = "index.html";
+        }
+        function rredirect() {
+          window.location.href = "rps.html";
+        }
+        function sredirect() {
+          window.location.href = "source.html";
+        }
+  
+      
+      </script>
+     
+  </body>
+</html>

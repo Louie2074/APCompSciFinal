@@ -1,0 +1,27 @@
+.objectives {
+    border: 10px gray solid;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    background-color:white;
+  }
+  
+  .objectives h2 {
+    text-align: center;
+  }
+  
+  .objectives ol {
+    padding: 0px;
+    padding-left: 30px;
+    list-style: disc;
+  }
+  
+  .objectives li {
+    padding: 10px;
+   
+   
+  
+  }
+.body{
+  background-color: dimgray;
+}
